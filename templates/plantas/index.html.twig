@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Plantas{% endblock %}
+
+{% block body %}
+<div class="navbar">
+    <a href="{{ path('app_index') }}"><img src="{{ asset('img/logo.svg') }}" class="Logo"/></a>
+    <ul>
+        <li><a href="{{ path('login') }}">Login</a></li>
+        <li><a href="{{ path('userRegistration') }}" class="btn">Registro</a></li>
+        <li><a href="#"><img src="{{ asset('img/carro.svg') }}" alt="" class="carrito"></a></li>
+    </ul>
+</div>
+<h2 class="titulo">Plantas</h2>
+
+<div class="contenedor-tabla">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Código</th>
+                <th>Precio</th>
+                <th>Descripción</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for planta in plantas %}
+            <tr>
+                <td>{{ planta.id }}</td>
+                <td>{{ planta.Nombre }}</td>
+                <td>{{ planta.Codigo }}</td>
+                <td>{{ planta.Precio }}</td>
+                <td>{{ planta.Descripcion }}</td>
+                <td>
+                    <div class="botones">
+                        <a href="{{ path('app_plantas_show', {'id': planta.id}) }}" class="btn-green">Detalles</a>
+                        <a href="{{ path('app_plantas_edit', {'id': planta.id}) }}" class="btn-blue">Editar</a>
+                    </div>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="6">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+<div class="new">
+    <a href="{{ path('app_plantas_new') }}" class="btn-yellow">Añadir</a>
+</div>
+{% endblock %}

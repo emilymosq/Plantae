@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       <title>{% block title %}Plantae{% endblock %}</title> 
+       <link rel="shortcut icon" href="{{ asset('img/logo.svg') }}">
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+            <link href="{{ asset('styles/main.css') }}" type="text/css" rel="stylesheet" />
+        {% endblock %}
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+    </head>
+    <body>
+        {% block body %}
+        {% endblock %}
+    </body>
+
+    {% block javascripts %}
+        {{ encore_entry_script_tags('app') }}
+    {% endblock %}
+</html>

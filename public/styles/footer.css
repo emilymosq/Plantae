@@ -1,0 +1,43 @@
+.footer{
+  margin-top: 200px;
+}
+
+.containerFooter {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.column1 {
+  width: 400px;
+}
+
+.column1 h5 {
+  margin: 20px;
+}
+
+
+.column2 {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+.column2 h5{
+  margin: 15px;
+}
+
+.copyright small {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+h5 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.iconos img{
+  padding: 2px;
+}

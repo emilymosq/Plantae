@@ -1,0 +1,50 @@
+.Hero {
+    background-color: #EFEFEF;
+    clip-path: polygon(50% 100%, 100% 81%, 100% 0, 0 0, 0 80%);
+    min-height: calc(87vh - 100px);
+  }
+
+  .Container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .ContainerLeft {
+    display: flex;
+    flex-direction: column;
+    padding: 130px;
+    width: 700px;
+  }
+  
+  .ContainerLeft h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #00360B;
+    /* color: #000; */
+  }
+  
+  .Button {
+    padding-top: 60px;
+  }
+  
+  .Btn2 {
+    font-size: 15px;
+    color: #fff;
+    background: #006414;
+    border-radius: 5px;
+    padding: 15px 40px;
+    cursor: pointer;
+  }
+  
+  .ContainerRight {
+    display: flex;
+    justify-content: right;
+    width: 100px;
+  }
+  
+  .ContainerRight img {
+    display: flex;
+    justify-content: right;
+    width: 300px;
+    height: 480px;
+  }

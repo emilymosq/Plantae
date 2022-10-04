@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{#{% block title %}Hello UserController!{% endblock %}#}
+
+{% block body %}
+<div class="navbar">
+    <a href="#"><img src="{{ asset('img/logo.svg') }}" class="Logo"/></a>
+    <ul>
+        <li><a href="{{ path('login') }}">Login</a></li>
+        <li><a href="{{ path('userRegistration') }}" class="btn">Registro</a></li>
+        <li><a href="#"><img src="{{ asset('img/carro.svg') }}" alt="" class="carrito"></a></li>
+    </ul>
+</div>
+<div class="ContainerForm">
+    <img class="imagen" src="{{ ('img/imagen.png') }}"/>
+    <div class="formulario">
+        <h2 class="titulor">Regístrate</h2>
+        {{form_start(registration_form)}}
+        <div>
+            {{form_label(registration_form.email, 'Correo Electrónico')}}
+            {{form_widget(registration_form.email, {attr:{'placeholder':'email@gmail.com'}})}}
+        </div>
+        <div>
+            {{form_label(registration_form.password, 'Contraseña')}}
+            {{form_widget(registration_form.password, {attr:{'placeholder':'Ingresa tu contraseña'}})}}
+        </div>
+        
+        {{form_end(registration_form)}}
+    </div>
+</div>
+
+{% endblock %}

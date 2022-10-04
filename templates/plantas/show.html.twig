@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Plantas{% endblock %}
+
+{% block body %}
+<div class="navbar">
+    <a href="{{ path('app_index') }}"><img src="{{ asset('img/logo.svg') }}" class="Logo"/></a>
+    <ul>
+        <li><a href="{{ path('login') }}">Login</a></li>
+        <li><a href="{{ path('userRegistration') }}" class="btn">Registro</a></li>
+        <li><a href="#"><img src="{{ asset('img/carro.svg') }}" alt="" class="carrito"></a></li>
+    </ul>
+</div>
+    <h2 class="titulo">Plantas</h2>
+
+<div class="contenedor-tabla">
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ planta.id }}</td>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <td>{{ planta.Nombre }}</td>
+            </tr>
+            <tr>
+                <th>Código</th>
+                <td>{{ planta.Codigo }}</td>
+            </tr>
+            <tr>
+                <th>Precio</th>
+                <td>{{ planta.Precio }}</td>
+            </tr>
+            <tr>
+                <th>Descripción</th>
+                <td>{{ planta.Descripcion }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="new">
+    <a href="{{ path('app_plantas_index') }}" class="btn-orange">Regresar</a>
+
+    <a href="{{ path('app_plantas_edit', {'id': planta.id}) }}" class="btn-blue">Editar</a>
+</div>
+    {{ include('plantas/_delete_form.html.twig') }}
+{% endblock %}

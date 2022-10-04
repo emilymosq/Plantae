@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "Potos",
+        "precio": "24,00 €",
+        "texto": "Luz: Se adapta a cualquier nivel de luz, pero prefiere la luz indirecta. Riego Moderado: Cuando el sustrato se esté secando. Humedad: No le gusta refrescarse, no hay que pulverizar sus hojas. Consejo top: Mantendrá su aspecto brillante, si le vas limpiando las hojas con un trapito de vez en cuando.",
+        "img" : "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhbnQlMjBwb3Rvc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 2,
+        "nombre": "Zamioculca",
+        "precio": "27,00 €",
+        "texto": "Luz: Se adapta a cualquier nivel de luz, pero prefiere la luz indirecta. Riego Moderado: Cuando el sustrato se esté secando. Humedad: No le gusta refrescarse, no hay que pulverizar sus hojas. Consejo top: Mantendrá su aspecto brillante, si le vas limpiando las hojas con un trapito de vez en cuando.",
+        "img": "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8emFtaW9jdWxjYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 3,
+        "nombre": "Monstera",
+        "precio": "27,20 €",
+        "texto": "Luz: Se adapta a cualquier nivel de luz, pero prefiere la luz indirecta. Riego Moderado: Cuando el sustrato se esté secando. Humedad: No le gusta refrescarse, no hay que pulverizar sus hojas. Consejo top: Mantendrá su aspecto brillante, si le vas limpiando las hojas con un trapito de vez en cuando.",
+        "img": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW9uc3RlcmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 4,
+        "nombre": "Maranta L",
+        "precio": "24,00 €",
+        "texto": "Luz: Se adapta a cualquier nivel de luz, pero prefiere la luz indirecta. Riego Moderado: Cuando el sustrato se esté secando. Humedad: No le gusta refrescarse, no hay que pulverizar sus hojas. Consejo top: Mantendrá su aspecto brillante, si le vas limpiando las hojas con un trapito de vez en cuando.",
+        "img": "https://images.unsplash.com/photo-1639756534497-d3271888337c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+    },
+    {
+        "id": 5,
+        "nombre": "Dracaena F",
+        "precio": "27,00 €",
+        "texto": "Luz: Se adapta a cualquier nivel de luz, pero prefiere la luz indirecta. Riego Moderado: Cuando el sustrato se esté secando. Humedad: No le gusta refrescarse, no hay que pulverizar sus hojas. Consejo top: Mantendrá su aspecto brillante, si le vas limpiando las hojas con un trapito de vez en cuando.",
+        "img": "https://images.unsplash.com/photo-1612363066736-a4a933de2cab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+    },
+    {
+        "id": 6,
+        "nombre": "Pilea P",
+        "precio": "29,00 €",
+        "texto": "Luz: Se adapta a cualquier nivel de luz, pero prefiere la luz indirecta. Riego Moderado: Cuando el sustrato se esté secando. Humedad: No le gusta refrescarse, no hay que pulverizar sus hojas. Consejo top: Mantendrá su aspecto brillante, si le vas limpiando las hojas con un trapito de vez en cuando.",
+        "img": "https://images.unsplash.com/photo-1600411832986-5a4477b64a1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGlsZWElMjBwZXBlcm9taW9pZGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    }
+]

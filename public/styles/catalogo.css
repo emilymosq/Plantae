@@ -1,0 +1,129 @@
+
+.Catalogo {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 0.2fr 1fr;
+  /* background-color: #021B27;
+      font-family: 'Inter', sans-serif; */
+}
+
+.Cards {
+  margin: 100px auto 0;
+  width: 280px;
+  height: 420px;
+}
+
+.CardsInner {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.CardsInner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+
+.CardsFace {
+  position: fixed;
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, .2);
+
+}
+
+.CardsFaceFront {
+  background-color: transparent;
+}
+
+
+.CardsFaceBack {
+  background-color: #fff;
+  /* position: relative; */
+  transform: rotateY(180deg);
+}
+
+.CardsHeader {
+  position: relative;
+  padding: 0px;
+}
+
+
+.ImagenEspecie {
+  display: block;
+  width: 280px;
+  height: 290px;
+  margin-bottom: 10px;
+}
+
+
+.CardsHeader h2 {
+  color: #00360B;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.CardsHeader p {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.CardsBody {
+  padding: 20px;
+}
+
+.CardsBody p {
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.BotonBack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BotonMas{
+  display: flex;
+  justify-content: center;
+}
+
+.Btn5 {
+  margin-top: 10px;
+  color: #fff;
+  background: #006414;
+  border: #006414;
+  border-radius: 5px;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Equis {
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.emoji{
+  font-size: 35px;
+  text-align: center;
+}
+
+@media (max-width: 1040px) {
+  .Catalogo {
+    display: flex;
+    flex-direction: column;
+  }
+}
